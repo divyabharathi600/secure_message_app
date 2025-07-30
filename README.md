@@ -14,7 +14,6 @@ A Flask-based secure messaging web application that allows users to encrypt and 
 <img width="1911" height="962" alt="Screenshot 2025-07-29 124103" src="https://github.com/user-attachments/assets/4687dd85-fd94-4b36-b1fc-12a31b868f36" />
 
 
-
 ---
 
 ## ✨ Features
