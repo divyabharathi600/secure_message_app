@@ -13,7 +13,6 @@ A Flask-based secure messaging web application that allows users to encrypt and 
 ## 📸 Demo Screenshots
 <img width="1911" height="962" alt="Screenshot 2025-07-29 124103" src="https://github.com/user-attachments/assets/4687dd85-fd94-4b36-b1fc-12a31b868f36" />
 
-
 ---
 
 ## ✨ Features
@@ -32,21 +31,6 @@ A Flask-based secure messaging web application that allows users to encrypt and 
 
 ---
 
-## 📁 Project Structure
-
-```
-
-secure\_messaging\_app/
-├── app.py                # Flask backend
-├── secret.key            # Fernet key file (auto-generated)
-├── templates/
-│   └── index.html        # UI Template
-├── static/
-│   ├── style.css         # Stylish CSS
-│   └── script.js         # JavaScript for interactivity
-└── README.md
-
-````
 
 ---
 
