@@ -67,11 +67,11 @@ Now open your browser and go to:
 
 
 
-```<img width="1915" height="1001" alt="Screenshot 2025-07-29 124127" src="https://github.com/user-attachments/assets/16565072-54ff-45bc-83c4-6166a00e8a7d" />```
+```
+![Fernet Screenshot](screenshots/fernet.png)
+![Caesar Screenshot](screenshots/caesar.png)
 
-```<img width="1919" height="1002" alt="Screenshot 2025-07-29 124155" src="https://github.com/user-attachments/assets/16a1f3d0-6578-489e-bdd1-d3094e10dabd" />```
-
-
+```
 
 ---
 
