@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Messaging App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Secure Messaging</h1>
+
+        <label>Choose Cipher:</label>
+        <select id="method">
+            <option value="Fernet">Fernet</option>
+            <option value="Caesar">Caesar Cipher</option>
+        </select>
+
+        <label>Enter Message:</label>
+        <textarea id="message"></textarea>
+
+        <div id="shift-container" style="display:none;">
+            <label>Enter Shift Value:</label>
+            <input type="number" id="shift" value="3" />
+        </div>
+
+        <button onclick="encryptMessage()">Encrypt</button>
+
+        <div class="output">
+            <p><strong>Encrypted Message:</strong> <span id="encrypted"></span></p>
+            <p><strong>Decrypted Message:</strong> <span id="decrypted"></span></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
