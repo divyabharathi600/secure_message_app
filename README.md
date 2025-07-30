@@ -18,23 +18,6 @@ A Flask-based secure messaging web application that allows users to encrypt and 
 - 📜 Displays both encrypted and decrypted messages
 
 ---
-
-## 📁 Project Structure
-
-```
-
-secure\_messaging\_app/
-├── app.py                # Flask backend
-├── secret.key            # Fernet key file (auto-generated)
-├── templates/
-│   └── index.html        # UI Template
-├── static/
-│   ├── style.css         # Stylish CSS
-│   └── script.js         # JavaScript for interactivity
-└── README.md
-
-````
-
 ---
 
 ## 🚀 Getting Started
@@ -63,15 +46,7 @@ Now open your browser and go to:
 
 ---
 
-## 📷 Screenshots
 
-
-
-```
-![Fernet Screenshot](screenshots/fernet.png)
-![Caesar Screenshot](screenshots/caesar.png)
-
-```
 
 ---
 
